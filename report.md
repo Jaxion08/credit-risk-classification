@@ -11,7 +11,7 @@ Analyzing lending data for a theoretical fincancial institution using machine le
   * Precision for healthy loan predictions is 1.00, this means that almost everything predicted to be healthy was healthy.
   * Precision for high-risk predictions is 0.85, meaning 15% of the loans predicted to be high-risk were actually healthy.
   * Recall for healthy loans is 0.99, so the model correctly identified 99% of the healthy loans.
-  * Recall for high-risk loans is 0.91, which means 9% of what the model identified as healthy loans were high-risk loans.
+  * Recall for high-risk loans is 0.91, which means out of all the high risk loans, 9% were predicted to be healthy.
   
   At first I thought the recall for high-risk loans contradicted the precision for healthy loans being 100%, but it does not. Healthy loans precision is actually 99.7% and the classification report is rounding up.
 
@@ -20,7 +20,7 @@ Analyzing lending data for a theoretical fincancial institution using machine le
   * Precision for healthy loan predictions is 1.00, this means that almost everything predicted to be healthy was healthy.
   * Precision for high-risk predictions is 0.84, meaning 16% of the loans predicted to be high-risk were actually healthy.
   * Recall for healthy loans is 0.99, so the model correctly identified 99% of the healthy loans.
-  * Recall for high-risk loans is 0.99, which means 1% of what the model identified as healthy loans were high-risk loans
+  * Recall for high-risk loans is 0.99, which means out of all the high risk loans, 1% were predicted to be healthy.
 
 ## Summary
 
