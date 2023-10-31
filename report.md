@@ -24,8 +24,6 @@ Analyzing lending data for a theoretical fincancial institution using machine le
 
 ## Summary
 
-If you do not recommend any of the models, please justify your reasoning.
-
 If you are using one of these models to decide whether a loan is healthy or high-risk and avoiding high-risk loans is very important, then I would recommend using Model 2. Model 2 had a very small drop in high-risk precision for a large gain in high-risk recall, which I think is more important for a lender that wants to take on as few high-risk loans as possible.
 
 Both models have excellent precision and recall for healthy loans. Model 2 is very close to the same precision for high-risk loans (84% vs 85%), but it has much better recall for high-risk loans at 99% vs 91% for Model 1.
